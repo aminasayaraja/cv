@@ -1,23 +1,22 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-   <main className="bg-gray-100 min-h-screen py-10 px-4">
+    <main className="bg-gray-100 min-h-screen py-10 px-4">
       <div className="max-w-4xl mx-auto bg-white p-8 shadow-md rounded-md">
         <header className="text-center mb-8">
           <h1 className="text-3xl font-bold">Amina Sayaraja</h1>
-          <p className="text-gray-600 italic">Expert in groundwater and groundwater resource development</p>
+          <p className="text-gray-600 italic">
+            Expert in groundwater and groundwater resource development
+          </p>
           <p className="text-sm text-gray-700 mt-2">
-            Email: aminasayaraja@gmail.com | GitHub: github.com/aminasayaraja | Portfolio: aminasayaraja.dev
+            Email: aminasayaraja@gmail.com | GitHub: github.com/aminasayaraja |
+            Portfolio: aminasayaraja.dev
           </p>
         </header>
 
         <section className="mb-6">
           <h2 className="text-xl font-semibold border-b-2 border-blue-500 pb-1 mb-3">About Me</h2>
           <p>
-            The company developsgroundwater systems and water resources,as well as provides modern groundwater equipment and consulting services . The wrok experience is 10 year.
-            
-          
+            Our company develops groundwater systems and water resources. We also provide modern groundwater equipment and consulting services. We have over 10 years of experience in the field.
           </p>
         </section>
 
@@ -30,9 +29,7 @@ export default function Home() {
               'Drilling service',
               'Groundwater consulting services',
               'Provide equipment and drilling rigs',
-              'Water system design',
               'Provide water system equipment',
-              
             ].map((skill) => (
               <span key={skill} className="bg-blue-500 text-white px-3 py-1 rounded">
                 {skill}
@@ -45,23 +42,17 @@ export default function Home() {
           <h2 className="text-xl font-semibold border-b-2 border-blue-500 pb-1 mb-3">Experience</h2>
           <ul className="space-y-4">
             <li>
-              <strong>Expertise in groundwater and water resource developmentSenior </strong> – Tech Solutions Inc. (2025–Present)
+              <strong>Senior Groundwater and Resource Development Expert</strong> – Tech Solutions Inc. (2025–Present)
               <ul className="list-disc list-inside ml-4 text-gray-700">
-                <li>
-                  Built and maintained modern, respond to customer requests at all times .
-                </li>
-                <li>Led a team of developers and reviewed code for quality assurance.</li>
+                <li>Built and maintained modern groundwater systems and responded to customer requests.</li>
+                <li>Led a team of developers and managed quality assurance.</li>
               </ul>
             </li>
             <li>
-              <strong>Sign the use of groundwater as a community water supply system</strong> – This system has been implemented since 2018 until now.
+              <strong>Community Groundwater Supply Project</strong> – Implemented since 2018
               <ul className="list-disc list-inside ml-4 text-gray-700">
-                <li>
-                  Our company wroks as ateam. The main tasks will be divided into 4 tasks: waterchannel survey,drilling team,customers, and purchasing department.
-                </li>
-                <li>
-                  I will wrok closely whit all teams and wrok with every customer who uses the service.
-                </li>
+                <li>Worked in a team divided into four departments: water channel survey, drilling, customer support, and procurement.</li>
+                <li>Coordinated closely with all teams and served customers directly.</li>
               </ul>
             </li>
           </ul>
@@ -70,7 +61,9 @@ export default function Home() {
         <section className="mb-6">
           <h2 className="text-xl font-semibold border-b-2 border-blue-500 pb-1 mb-3">Education</h2>
           <p>
-            <strong>I graduatedin business administration but went to China to learn about groundwater and receive trainung in this field for 5 months</strong> – University of laos (2004–2008)
+            <strong>Business Administration Graduate</strong> – University of Laos (2004–2008)
+            <br />
+            Completed 5-month specialized training in groundwater systems in China.
           </p>
         </section>
 
@@ -78,26 +71,22 @@ export default function Home() {
           <h2 className="text-xl font-semibold border-b-2 border-blue-500 pb-1 mb-3">Projects</h2>
           <ul className="list-disc list-inside text-gray-700">
             <li>
-              <strong>Portfolio Facebook page</strong> – Personal site showcasing my work and blog
-              (Drilling lao)
+              <strong>Drilling Lao (Facebook Page)</strong> – Showcasing company projects and activities.
             </li>
             <li>
-              <strong>Task Manager App</strong> – MERN stack app to manage daily tasks with user
-              authentication
+              <strong>Task Manager App</strong> – MERN stack app to manage daily tasks with user authentication.
             </li>
           </ul>
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold border-b-2 border-blue-500 pb-1 mb-3">contect</h2>
+          <h2 className="text-xl font-semibold border-b-2 border-blue-500 pb-1 mb-3">Contact</h2>
           <ul className="list-disc list-inside text-gray-700">
             <li>
-              <strong>facebook page  </strong> – Drilling lao
-              
+              <strong>Facebook Page:</strong> Drilling Lao
             </li>
             <li>
-              <strong>Tell 56705111</strong> – wathsApp 56705111
-          
+              <strong>Phone/WhatsApp:</strong> 56705111
             </li>
           </ul>
         </section>
